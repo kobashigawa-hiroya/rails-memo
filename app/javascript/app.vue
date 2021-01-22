@@ -2,10 +2,10 @@
   <div id="app">
 <div class="form">
       <div class="form-group">
-        <input v-model="title" placeholder="title" class="form-control">
+        <input v-model="title" placeholder="メモのタイトル" class="form-control">
       </div>
       <div class="form-group">
-        <input v-model="description" placeholder="description" class="form-control">
+        <input v-model="description" placeholder="メモの内容" class="form-control">
       </div>
       <button @click="addMemo">メモを追加</button>
     </div>
